@@ -14,11 +14,11 @@ DHT dht(dht_dpin, DHTTYPE);
 BlynkTimer timer;
 #include <BlynkSimpleEsp8266.h>
 #include <SPI.h>
-const char* ssid     = "Yuva";                 // SSID of local network
-const char* password = "1234567890";                    // Password on network
-String APIKEY = "ea633fda4f8a2632caf878fdb662a662";                                 
-String CityID = "1273865";                                 //COIMBATORE
-char auth[] = "C8m6uWlm8atwSKnscDnPB-OqLK9ll-M2";
+const char* ssid     = "SSID";                 // SSID of local network
+const char* password = "wifi_password";                    // Password on network
+String APIKEY = "openweather_API_KEY";                                 
+String CityID = "CITY_ID";                                 
+char auth[] = "BLYNK_AUTH_CODE";
 
 WiFiClient client;
 char servername[]="api.openweathermap.org";              // remote server we will connect to
