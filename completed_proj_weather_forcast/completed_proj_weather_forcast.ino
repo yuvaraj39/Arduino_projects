@@ -64,7 +64,7 @@ void setup() {
 }
 
 void loop() {
-    if(counter == 60)                                 //Get new data every 10 minutes
+    if(counter == 60)                              
     {
       counter = 0;
       displayGettingData();
